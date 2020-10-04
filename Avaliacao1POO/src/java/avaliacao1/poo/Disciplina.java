@@ -9,17 +9,19 @@ package avaliacao1.poo;
  *
  * @author isame
  */
+import java.util.ArrayList;
 public class Disciplina {
     private String nome;
     private String ementa;
     private int ciclo;
-
+    private double nota;
+    
     public Disciplina(String nome, String ementa, int ciclo) {
         this.nome = nome;
         this.ementa = ementa;
         this.ciclo = ciclo;
     }
-    private float nota;
+    
 
     public String getNome() {
         return nome;
@@ -45,12 +47,18 @@ public class Disciplina {
         this.ciclo = ciclo;
     }
 
-    public float getNota() {
+    public double getNota() {
         return nota;
     }
 
-    public void setNota(float nota) {
+    public void setNota(double nota) {
         this.nota = nota;
     }
     
+    public static ArrayList<Disciplina> getList(ArrayList listaDisciplinas){
+        
+        ArrayList<Disciplina> minhasDisciplinas = listaDisciplinas;
+        
+        return minhasDisciplinas;
+    }
 }
