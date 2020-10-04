@@ -14,8 +14,8 @@
     <body>
         <h1>Avaliação 1 POO</h1>
         <h2> Isabela Pereira Melim</h2>
-        <h2> RA: </h2>
+        <h2> RA: 1290481913020</h2>
         <h3> Disciplinas matriculadas: </h3>
-        
+        <h3><a href="sobre.jsp"> Sobre</a>
     </body>
 </html>
