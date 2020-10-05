@@ -12,6 +12,7 @@
         <title>Sobre</title>
     </head>
     <body>
+        <%@include file="WEB-INF/menu.jspf" %>
         <h1>Avaliação 1 POO</h1>
         <h3><a href="index.jsp">Voltar</a>
         <h2> Isabela Pereira Melim</h2>

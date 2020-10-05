@@ -43,6 +43,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <%@include file="WEB-INF/menu.jspf" %>
         <h1>Disciplinas</h1>
         <a href="index.jsp">Voltar</a>
         
