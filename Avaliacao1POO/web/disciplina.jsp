@@ -45,7 +45,7 @@
     <body>
         <%@include file="WEB-INF/menu.jspf" %>
         <h1>Disciplinas</h1>
-        <a href="index.jsp">Voltar</a>
+        <h3><a href="index.jsp">Voltar</a></h3>
         
         <table border="1">
             <tr>
